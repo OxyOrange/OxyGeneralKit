@@ -1,0 +1,22 @@
+{
+  "name": "OxyGeneralKit",
+  "version": "0.1.0",
+  "summary": "A short description of OxyGeneralKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/OxyOrange/OxyGeneralKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "OxyOrange": "1447600030@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/OxyOrange/OxyGeneralKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "OxyGeneralKit/Classes/**/*"
+}

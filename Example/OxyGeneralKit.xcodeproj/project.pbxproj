@@ -27,10 +27,10 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		707BFCDE8C51DA4E9543BF78 /* Pods-OxyGeneralKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OxyGeneralKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-OxyGeneralKit_Tests/Pods-OxyGeneralKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7FECE7755F0D1028D3F91FC2 /* Pods-OxyGeneralKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OxyGeneralKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-OxyGeneralKit_Tests/Pods-OxyGeneralKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8D13D56231C8F52C471F3B93 /* OxyGeneralKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = OxyGeneralKit.podspec; path = ../OxyGeneralKit.podspec; sourceTree = "<group>"; };
-		AD8D0E27C511868E24DBA110 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8D13D56231C8F52C471F3B93 /* OxyGeneralKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OxyGeneralKit.podspec; path = ../OxyGeneralKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD8D0E27C511868E24DBA110 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CCC6C30FC95845529C893881 /* Pods_OxyGeneralKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OxyGeneralKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E57EDF626B862F809A37D513 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E57EDF626B862F809A37D513 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +114,6 @@
 				7FECE7755F0D1028D3F91FC2 /* Pods-OxyGeneralKit_Tests.debug.xcconfig */,
 				707BFCDE8C51DA4E9543BF78 /* Pods-OxyGeneralKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -160,6 +159,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

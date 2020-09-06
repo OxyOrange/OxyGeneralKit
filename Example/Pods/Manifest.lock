@@ -1,0 +1,16 @@
+PODS:
+  - OxyGeneralKit (0.1.0)
+
+DEPENDENCIES:
+  - OxyGeneralKit (from `../`)
+
+EXTERNAL SOURCES:
+  OxyGeneralKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OxyGeneralKit: e32c38e2085ef96f7b646916d2d373ea0ee89d6d
+
+PODFILE CHECKSUM: 82a6b96da6205fa314d3fb703ad52d8a8076b1f6
+
+COCOAPODS: 1.9.1

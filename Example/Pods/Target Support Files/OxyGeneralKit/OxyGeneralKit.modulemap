@@ -1,0 +1,6 @@
+framework module OxyGeneralKit {
+  umbrella header "OxyGeneralKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
