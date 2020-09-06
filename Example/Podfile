@@ -1,0 +1,6 @@
+use_frameworks!
+target 'OxyGeneralKit_Tests' do
+  pod 'OxyGeneralKit', :path => '../'
+  
+  
+end
